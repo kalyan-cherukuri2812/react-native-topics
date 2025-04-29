@@ -5,6 +5,7 @@
 import React, { useState } from 'react';
 import { SectionList, Text, View, StyleSheet, RefreshControl } from 'react-native';
 
+
 // Sample transaction data grouped by date
 const transactionData = [
   {
