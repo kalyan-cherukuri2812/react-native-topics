@@ -7,6 +7,7 @@ import PressableCom from './Components/Pressable'
 import ImageBackgroundCom from './Components/ImageBackground'
 import ImageCom from './Components/Image'
 import ScrollViewCom from './Components/ScrollView'
+import SectionListCom from './Components/SectionList'
 
 export default function SrcApp() {
   return (
@@ -17,7 +18,8 @@ export default function SrcApp() {
      {/* <ModalCom/> */}
      {/* <PressableCom/> */}
      {/* <ImageBackgroundCom/> */}
-     <ScrollViewCom/>
+     {/* <ScrollViewCom/> */}
+     <SectionListCom/>
     </View>
   )
 }
