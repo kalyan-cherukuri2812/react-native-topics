@@ -3,13 +3,21 @@ import React from 'react'
 import ActivityIndicatorComponent from './Components/ActivityIndicator'
 import FlatListComponent from './Components/FlatList'
 import ModalCom from './Components/Modal'
+import PressableCom from './Components/Pressable'
+import ImageBackgroundCom from './Components/ImageBackground'
+import ImageCom from './Components/Image'
+import ScrollViewCom from './Components/ScrollView'
 
 export default function SrcApp() {
   return (
     <View style={styles.bgCard}>
      {/* <ActivityIndicatorComponent/> */}
      {/* <FlatListComponent/> */}
-     <ModalCom/>
+     {/* <ImageCom/> */}
+     {/* <ModalCom/> */}
+     {/* <PressableCom/> */}
+     {/* <ImageBackgroundCom/> */}
+     <ScrollViewCom/>
     </View>
   )
 }
