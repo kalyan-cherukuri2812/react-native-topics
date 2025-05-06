@@ -38,11 +38,16 @@ export default function FlatListComponent() {
   return (
     <View style={styles.container}>
       <FlatList
+      showsVerticalScrollIndicator={false}
         data={data}
         renderItem={renderItems}
         keyExtractor={item => item.id}
         ItemSeparatorComponent={() => <View style={styles.separator} />}
         ListHeaderComponent={() => <Text style={styles.header}>User List</Text>}
+        initialNumToRender={10} // Limit initial items rendered
+        // maxToRenderPerBatch={20} // Limit items rendered per batch
+        // windowSize={1} // Reduce the window size
+        removeClippedSubviews={true} // Improve memory efficiency by removing off-screen views
       />
     </View>
   );

@@ -14,6 +14,10 @@ import TextInputCom from './Components/TextInputCom';
 import TouchableHighlightCom from './Components/TouchableHighlightCom';
 import TouchableOpacityCom from './Components/TouchableOpacityCom';
 import TouchableWithoutFeedbackCom from './Components/TouchableWithoutFeedbackCom';
+import VirtualizedListCom from './Components/VirtualizedListCom';
+import AlertEx from './APIs/Alert';
+import AppearanceExample from './APIs/Appearance';
+import AppStateExample from './APIs/AppState';
 
 export default function SrcApp() {
   return (
@@ -30,8 +34,14 @@ export default function SrcApp() {
       {/* <SwitchCom /> */}
       {/* <TextInputCom/> */}
       {/* <TouchableHighlightCom /> */}
-      <TouchableOpacityCom />
+      {/* <TouchableOpacityCom /> */}
       {/* <TouchableWithoutFeedbackCom /> */}
+      {/* <VirtualizedListCom/> */}
+      
+      {/* APIs */}
+      {/* <AlertEx/> */}
+      {/* <AppearanceExample/> */}
+      <AppStateExample/>
     </View>
   );
 }
