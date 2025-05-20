@@ -41,7 +41,7 @@ export default function SrcApp() {
       {/* APIs */}
       {/* <AlertEx/> */}
       {/* <AppearanceExample/> */}
-      {/* <AppStateExample/> */}
+      <AppStateExample/>
     </View>
   );
 }
