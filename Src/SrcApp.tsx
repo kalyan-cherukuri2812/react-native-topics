@@ -18,6 +18,7 @@ import VirtualizedListCom from './Components/VirtualizedListCom';
 import AlertEx from './APIs/Alert';
 import AppearanceExample from './APIs/Appearance';
 import AppStateExample from './APIs/AppState';
+import DimensionsPropsExample from './APIs/Dimensions';
 
 export default function SrcApp() {
   return (
@@ -41,7 +42,8 @@ export default function SrcApp() {
       {/* APIs */}
       {/* <AlertEx/> */}
       {/* <AppearanceExample/> */}
-      <AppStateExample/>
+      {/* <AppStateExample/> */}
+      <DimensionsPropsExample/>
     </View>
   );
 }
