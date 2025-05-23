@@ -309,6 +309,6 @@ runAllExamples();
 
 // Advanced Level
 // | 27   | "Hello World! This is React Native" | "hello-world-this-is-react-native" | convert string to URL slug      |
-// | 28   | ("The quick brown fox", 3) | 3                         | count number of words with length > N             |
+// | 28   | ("The quick brown fox", 3)| 3                          | count number of words with length > N             |
 // | 29   | ("pale", "bale")          | true                       | check if two strings differ by one edit           |
 // | 30   | "aaabbcc"                 | "a3b2c2"                   | compress string by counts (run-length encoding)   |
