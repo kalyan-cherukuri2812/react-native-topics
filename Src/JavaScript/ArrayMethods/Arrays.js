@@ -5,7 +5,7 @@
 // ================================
 
 /*
-| Method                        | Description                                              | Example                                          |
+| Method                       | Description                                              | Example                                          |
 |------------------------------|----------------------------------------------------------|-------------------------------------------------|
 | length                       | Returns the number of elements in the array              | [1, 2, 3].length                      // 3      |
 | forEach(callback)            | Executes a function on each element (no return)          | [1, 2, 3].forEach(x => console.log(x))          |
