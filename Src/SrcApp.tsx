@@ -19,10 +19,13 @@ import AlertEx from './APIs/Alert';
 import AppearanceExample from './APIs/Appearance';
 import AppStateExample from './APIs/AppState';
 import DimensionsPropsExample from './APIs/Dimensions';
+import Navigator from './Navigations/Navigator';
+import Todo from './ReactNative/Todo';
 
 export default function SrcApp() {
   return (
     <View style={styles.bgCard}>
+      <Todo/>
       {/* <ActivityIndicatorComponent/> */}
       {/* <FlatListComponent/> */}
       {/* <ImageCom/> */}
@@ -43,7 +46,7 @@ export default function SrcApp() {
       {/* <AlertEx/> */}
       {/* <AppearanceExample/> */}
       {/* <AppStateExample/> */}
-      <DimensionsPropsExample/>
+      {/* <DimensionsPropsExample/> */}
     </View>
   );
 }
