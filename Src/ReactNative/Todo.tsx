@@ -65,7 +65,6 @@ export default function Todo() {
         onLongPress={() => cardPressHandleOnLongPress(id, task)}>
         <View style={styles.todoCard}>
           <Text style={isCompleted && styles.completedText}>{task}</Text>
-          <Text>E</Text>
         </View>
       </TouchableHighlight>
     );
