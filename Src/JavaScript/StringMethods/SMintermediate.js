@@ -33,5 +33,5 @@ const addSpcBtwLtrsAndNums = ip => {
 };
 export {
   compressStringByCountingRepeatedChars, //aabbbcccc => a2b3c4
-  addSpcBtwLtrsAndNums,
+  addSpcBtwLtrsAndNums, //abc123xyz => abc 123 xyz
 };
