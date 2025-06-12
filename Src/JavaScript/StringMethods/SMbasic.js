@@ -22,8 +22,17 @@ const vowelsCount = ip => {
   return count;
 };
 
+const toTitleCase = ip => {
+  const op = ip
+    .split(' ')
+    .map(e => e[0].toUpperCase() + e.slice(1))
+    .join(' ');
+  return op;
+};
+
 export {
   reverseAString, //hello => olleh
   Palindrome, //Racecar => true
   vowelsCount, //Hello World => 3
+  toTitleCase, //hello world from react => Hello World From React
 };
