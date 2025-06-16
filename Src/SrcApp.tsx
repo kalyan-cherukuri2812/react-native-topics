@@ -21,12 +21,14 @@ import AppStateExample from './APIs/AppState';
 import DimensionsPropsExample from './APIs/Dimensions';
 import Todo from './ReactNative/Basic/Todo';
 import ChipsInput from './ReactNative/Basic/ChipsInput';
+import Accordion from './ReactNative/Basic/Accordion';
 
 export default function SrcApp() {
   return (
     <View style={styles.bgCard}>
       {/* <Todo/> */}
-      <ChipsInput/>
+      {/* <ChipsInput/> */}
+      <Accordion/>
       {/* <ActivityIndicatorComponent/> */}
       {/* <FlatListComponent/> */}
       {/* <ImageCom/> */}
