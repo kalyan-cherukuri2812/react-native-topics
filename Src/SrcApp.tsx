@@ -19,13 +19,14 @@ import AlertEx from './APIs/Alert';
 import AppearanceExample from './APIs/Appearance';
 import AppStateExample from './APIs/AppState';
 import DimensionsPropsExample from './APIs/Dimensions';
-import Navigator from './Navigations/Navigator';
-import Todo from './ReactNative/Todo';
+import Todo from './ReactNative/Basic/Todo';
+import ChipsInput from './ReactNative/Basic/ChipsInput';
 
 export default function SrcApp() {
   return (
     <View style={styles.bgCard}>
-      <Todo/>
+      {/* <Todo/> */}
+      <ChipsInput/>
       {/* <ActivityIndicatorComponent/> */}
       {/* <FlatListComponent/> */}
       {/* <ImageCom/> */}

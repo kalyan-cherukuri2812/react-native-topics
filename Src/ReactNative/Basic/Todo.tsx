@@ -26,7 +26,8 @@ export default function Todo() {
       task: addTodo.trim(),
       isCompleted: false,
     };
-    setTodoData([newTodo, ...todoData]);
+    // setTodoData([newTodo, ...todoData]);
+    setTodoData(prev=>[newTodo,...prev])
     setAddTodo('');
   };
   console.log('todo', todoData);

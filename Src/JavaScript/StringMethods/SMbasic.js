@@ -77,6 +77,14 @@ const removeDigitsAndSpecialCharacters = ip => {
   return op;
 };
 
+const findTheLongestWord = ip => {
+  let longestWord = '';
+  ip.split(' ').forEach(e =>
+    e.length > longestWord.length ? (longestWord = e) : '',
+  );
+  return longestWord;
+};
+
 export {
   reverseAString, //hello => olleh
   Palindrome, //Racecar => true
@@ -88,4 +96,5 @@ export {
   camelCaseToTitleCase, //fooBarBaz => Foo Bar Baz
   removeDuplicateChar, //aa$$2wwewwsd!@@!!000jfjdhyusj => a$2wesd!@0jfhyu
   removeDigitsAndSpecialCharacters, //mix3dC4se! => mixdCse
+  findTheLongestWord, //JavaScript is awesome => JavaScript
 };
