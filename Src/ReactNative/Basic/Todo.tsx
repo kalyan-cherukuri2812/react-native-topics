@@ -27,7 +27,7 @@ export default function Todo() {
       isCompleted: false,
     };
     // setTodoData([newTodo, ...todoData]);
-    setTodoData(prev=>[newTodo,...prev])
+    setTodoData(prev => [newTodo, ...prev]);
     setAddTodo('');
   };
   console.log('todo', todoData);
@@ -59,7 +59,6 @@ export default function Todo() {
     console.log('kjhgfgu', id, task, isCompleted);
     return (
       <TouchableHighlight
-        
         activeOpacity={0.1}
         underlayColor={'y'}
         onPress={() => cardPressHandle(id)}
@@ -124,9 +123,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'pink',
     marginTop: 20,
     borderRadius: 7,
-    display:"flex",
-    flexDirection:"row",
-    justifyContent:"space-between"
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   completedText: {
     textDecorationLine: 'line-through',

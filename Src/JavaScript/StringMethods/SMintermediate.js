@@ -31,7 +31,28 @@ const addSpcBtwLtrsAndNums = ip => {
     .join('');
   return op;
 };
+
+const charRepeatDecode = ip => {
+  const isChar = c => /[a-zA-Z]/.test(c);
+  const isNum = c => /[0-9]/.test(c);
+  let res = '';
+  let repValue = '';
+  let eChar = '';
+  ip.split('').forEach((e, i, a) => {
+    if (!isNum(e)) {
+      eChar = e;
+    } else {
+      repValue = repValue + e;
+      if (!isNum(a[i + 1])) {
+        res = res + eChar.repeat(repValue);
+        repValue = '';
+      }
+    }
+  });
+  return res;
+};
 export {
   compressStringByCountingRepeatedChars, //aabbbcccc => a2b3c4
   addSpcBtwLtrsAndNums, //abc123xyz => abc 123 xyz
+  charRepeatDecode, //@5Q2D3s4 => @@@@@QQDDDssss
 };

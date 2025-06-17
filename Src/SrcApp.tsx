@@ -22,13 +22,15 @@ import DimensionsPropsExample from './APIs/Dimensions';
 import Todo from './ReactNative/Basic/Todo';
 import ChipsInput from './ReactNative/Basic/ChipsInput';
 import Accordion from './ReactNative/Basic/Accordion';
+import GusstheNum from './ReactNative/Basic/GusstheNum';
 
 export default function SrcApp() {
   return (
     <View style={styles.bgCard}>
-      {/* <Todo/> */}
+      <Todo/>
       {/* <ChipsInput/> */}
-      <Accordion/>
+      {/* <Accordion/> */}
+      {/* <GusstheNum/> */}
       {/* <ActivityIndicatorComponent/> */}
       {/* <FlatListComponent/> */}
       {/* <ImageCom/> */}
