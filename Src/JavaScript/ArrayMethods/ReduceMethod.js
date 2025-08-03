@@ -21,11 +21,9 @@ const findmaxLengthOfString = ip => {
 
 const groupByProperty = ip => {
   const op = ip.reduce((acc, cur) => {
-    if (acc[cur.type]) {
-      acc[cur.type] = [...acc[cur.type], {name: cur.name}];
-    } else {
-      acc[cur.type] = [{name: cur.name}];
-    }
+    const key = cur.type;
+    if (!acc[key]) acc[key] = [];
+    acc[key] = [...acc[key], cur];
     return acc;
   }, {});
   return op;
