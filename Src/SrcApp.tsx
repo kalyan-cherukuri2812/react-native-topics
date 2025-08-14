@@ -23,11 +23,13 @@ import Todo from './ReactNative/Basic/Todo';
 import ChipsInput from './ReactNative/Basic/ChipsInput';
 import Accordion from './ReactNative/Basic/Accordion';
 import GusstheNum from './ReactNative/Basic/GusstheNum';
+import Counter from './ReactNative/Basic/Counter';
 
 export default function SrcApp() {
   return (
     <View style={styles.bgCard}>
-      <Todo/>
+      {/* <Todo/> */}
+      <Counter />
       {/* <ChipsInput/> */}
       {/* <Accordion/> */}
       {/* <GusstheNum/> */}
@@ -46,7 +48,7 @@ export default function SrcApp() {
       {/* <TouchableOpacityCom /> */}
       {/* <TouchableWithoutFeedbackCom /> */}
       {/* <VirtualizedListCom/> */}
-      
+
       {/* APIs */}
       {/* <AlertEx/> */}
       {/* <AppearanceExample/> */}

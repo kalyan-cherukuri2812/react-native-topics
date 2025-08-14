@@ -11,7 +11,7 @@ To access those native features from JavaScript, React Native provides
 a system called Native Modules.
 
 Think of Native Modules as a bridge between JS and Android/iOS code.
-*/
+*/                                                                                  
 
 /*
 2. How does React Native bridge JavaScript with native code?
